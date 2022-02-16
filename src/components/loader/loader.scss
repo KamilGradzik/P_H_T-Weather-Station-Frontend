@@ -1,0 +1,73 @@
+.loader {
+  z-index: 500000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255,255,255, 0.3);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  .gif-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cloud-img {
+      position: relative;
+      display: block;
+      height: 120px;
+      width: 120px;
+      object-fit: cover;
+
+      -webkit-animation: moveCloud 1.2s ease-in-out infinite;
+      -o-animation: moveCloud 1.2s ease-in-out infinite;
+      animation: moveCloud 1.2s ease-in-out infinite;
+    }
+  }
+}
+
+.show {
+  -webkit-animation: onShow 0.2s ease-in;
+  -o-animation: onShow 0.2s ease-in;
+  animation: onShow 0.2s ease-in;
+}
+.hide {
+  -webkit-animation: onHide 0.2s ease-in-out;
+  -o-animation: onHide 0.2s ease-in-out;
+  animation: onHide 0.2s ease-in-out;
+}
+
+@keyframes onShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes onHide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes moveCloud {
+  0%,
+  100% {
+    left: 0;
+  }
+  50% {
+    left: 20px;
+  }
+}

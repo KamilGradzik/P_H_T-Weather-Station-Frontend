@@ -1,0 +1,204 @@
+@import "/src/assets/variables";
+header {
+  display: flex;
+  justify-content: center;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  .navbar {
+    width: 100%;
+    height: 100px;
+    background-color: $landing-primary-color;
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    color: $background-color;
+    padding: 0 20px;
+    border-bottom: solid 4px $secondary-color;
+    .title {
+      width: 60%;
+      font-family: $logo-font;
+      font-size: 6rem;
+      text-align: center;
+    }
+    .select-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 15px;
+      flex-direction: column;
+      .react-select {
+        width: 60%;
+      }
+      > *:not(label) {
+        font-size: 20px;
+        color: black;
+      }
+
+      & > label {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+
+      &.city {
+        width: 100%;
+      }
+
+      &.language {
+        width: 100%;
+      }
+    }
+  }
+  .navbar-mobile {
+    display: none;
+    font-size: inherit;
+    width: 100%;
+    font-family: $font;
+    height: 100px;
+    .title-mobile {
+      display: flex;
+      color: $background-color;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 4rem;
+      font-weight: 500;
+      background-color: $landing-primary-color;
+      border-bottom: solid 4px $secondary-color;
+      .title-text {
+        padding: 10px 0px 10px 15px;
+        width: 80%;
+        display: flex;
+        font-family: $logo-font;
+      }
+      .open-menu {
+        display: flex;
+        font-size: 0.6em;
+        margin-left: 35%;
+        width: 20%;
+      }
+    }
+    .hidden-dropdowns {
+      display: none;
+    }
+    .mobile-dropdowns {
+      background-color: #333333;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+      .select-wrapper-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 15px;
+        flex-direction: column;
+        color: $background-color;
+        .react-select {
+          width: 100%;
+        }
+        > *:not(label) {
+          font-size: 20px;
+          color: black;
+        }
+
+        & > label {
+          display: block;
+          width: 100%;
+          text-align: left;
+          font-size: 1.2em;
+          font-weight: bold;
+          letter-spacing: 2px;
+        }
+
+        &.city {
+          width: 100%;
+        }
+
+        &.language {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 1075px) {
+  .select-wrapper, .react-select {
+    font-size: 0.95rem !important;
+  }
+}
+
+
+
+@media screen and(max-width: 950px) {
+  .title {
+    font-size: 5rem !important;
+    padding: 10px;
+  }
+  .select-wrapper {
+    font-size: 0.9rem !important;
+  }
+  .react-select {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media screen and(max-width: 870px) {
+  .select-wrapper, .react-select {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and(max-width: 815px) {
+  .title {
+    font-size: 4rem !important;
+  }
+  .select-wrapper, .react-select {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .title {
+    font-size: 4rem !important;
+  }
+  .react-select {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media screen and(max-width: 675px) {
+  .title {
+    font-size: 3.5rem !important;
+  }
+  .select-wrapper {
+    font-size: 0.7rem !important;
+
+    &.city {
+      width: 100% !important;
+    }
+    &.language {
+      width: 100% !important;
+    }
+  }
+}
+
+@media screen and(max-width: 605px) {
+  .title {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and(max-width: 530px) {
+  .navbar {
+    display: none !important;
+  }
+  .navbar-mobile {
+    display: block !important;
+  }
+}

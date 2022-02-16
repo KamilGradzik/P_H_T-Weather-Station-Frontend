@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "humidity": "Wilgotność",
+    "pollution": "Zanieczyszczenie",
+    "temperature": "Temperatura",
+    "city": "Miasto",
+    "language": "Język",
+    "select": "Wybierz"
+  },
+  "mocks" : {
+    "selectCity": "Wybierz Miasto",
+    "selectLanguage": "Wybierz Język",
+    "welcomeTo": "Witamy w",
+    "intelligent": "Inteligentnej",
+    "weatherStation": "Stacji Pogodowej",
+    "pleaseSelectCityFromMenuBelow": "Wybierz miasto z menu poniżej",
+    "dataNotFoundForSpecifiedCity": "Nie znaleziono danych dla miasta",
+    "perhapsTheCityDoesntExists": "Być może miasto nie instnieje"
+  },
+  "buttons": {
+    "checkWeather": "Sprawdź pogode"
+  }
+}

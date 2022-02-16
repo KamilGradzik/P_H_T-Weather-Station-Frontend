@@ -1,0 +1,23 @@
+{
+  "labels": {
+    "humidity": "Humidity",
+    "pollution": "Pollution",
+    "temperature": "Temperature",
+    "city": "City",
+    "language": "Language",
+    "select": "Select"
+  },
+  "mocks" : {
+    "selectCity": "Select City",
+    "selectLanguage": "Select Language",
+    "welcomeTo": "Welcome to",
+    "intelligent": "Intelligent",
+    "weatherStation": "Weather Station",
+    "pleaseSelectCityFromMenuBelow": "Please select city from menu below",
+    "dataNotFoundForSpecifiedCity": "Data not found for specified city",
+    "perhapsTheCityDoesntExists": "Perhaps the city doesn't exist"
+  },
+  "buttons": {
+    "checkWeather": "Check Weather"
+  }
+}
