@@ -61,11 +61,6 @@
     }
     .modal-content {
       text-transform: uppercase;
-      .dumb {
-        font-weight: 300;
-        padding: 0;
-        text-decoration: line-through red;
-      }
       h3 {
         padding: 0.5em 0em 0.5em 0em;
         color: $landing-font-color;

@@ -10,8 +10,7 @@
   "mocks" : {
     "selectCity": "Wybierz Miasto",
     "selectLanguage": "Wybierz Język",
-    "welcomeTo": "Witamy w",
-    "intelligent": "Inteligentnej",
+    "welcomeTo": "Witaj w",
     "weatherStation": "Stacji Pogodowej",
     "pleaseSelectCityFromMenuBelow": "Wybierz miasto z menu poniżej",
     "dataNotFoundForSpecifiedCity": "Nie znaleziono danych dla miasta",

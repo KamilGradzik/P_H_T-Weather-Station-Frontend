@@ -29,9 +29,9 @@ const LandingPage: React.FC = (): ReactElement => {
             </video>
             <div className='content'>
                 <div className='landing-page-modal'>
-                    <span className="modal-title"><TiWeatherPartlySunny/>&nbsp;P.H.T<br/>PROJECT</span>
+                    <span className="modal-title"><TiWeatherPartlySunny/>&nbsp;P.H.T<br/>Weather Station</span>
                     <div className="modal-content">
-                        <h3><b>{t('mocks.welcomeTo')} <br/><span className='dumb'>{t('mocks.intelligent')}</span> {t('mocks.weatherStation')}</b></h3>
+                        <h3><b>{t('mocks.welcomeTo')} <br/>{t('mocks.weatherStation')}</b></h3>
                         <span>{t('mocks.pleaseSelectCityFromMenuBelow')}</span>
                         <Select value={selectedCity}
                                 options={cities}
