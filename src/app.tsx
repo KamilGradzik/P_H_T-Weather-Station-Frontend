@@ -10,6 +10,7 @@ import WeatherContext from './context/weather-context';
 import { ACTIONS } from './utils/constants';
 import { Language } from './models/language';
 import { useTranslation } from 'react-i18next';
+import LoginPage from './pages/login-page/login-page';
 
 
 const App: React.FC = () => {
@@ -61,6 +62,7 @@ const App: React.FC = () => {
             <div className="app">
                 <Routes>
                     <Route path="/" element={<LandingPage/>} />
+                    <Route path="/login" element={<LoginPage/>} />
                     <Route path="/:id" element={<Main showLoader={showLoader}/>} />
                 </Routes>
             </div>

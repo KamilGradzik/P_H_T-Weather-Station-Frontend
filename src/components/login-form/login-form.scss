@@ -1,0 +1,56 @@
+@import "src/assets/variables";
+
+.login-content{
+    font-size: 1.25rem;
+    .login-messages{
+        color: red;
+    }
+    .login-form{
+        .form-element{
+            padding: 0em 0em 1em 0em;
+            label{
+                color: $secondary-color;
+                display: inline-block;
+                font-size: 1.25em;
+                width: 100%;
+            }
+            input{
+                background-color: $landing-secondary-color;
+                border: none;
+                color: $landing-font-color;
+                border-radius: 10px;
+                display: inline-block;
+                font-size: 1.25em;
+                width: 100%;
+                outline: none;
+                padding: .25em;
+            }
+            &.form-submit{
+                input{
+                    background-color: $landing-orange2;
+                    color: $landing-secondary-color2;
+                    &:hover{
+                        background-color: $landing-orange2;
+                    } 
+                }
+                //background-color: $landing-orange2;
+                padding: 0;
+            }
+        }
+        .form-pass-reset{
+            font-size: 0.85em;
+            font-style: italic;
+            float: right;
+            color: $landing-secondary-color2;
+            padding: 0.5em 0em 0.5em 0em;
+            margin: 0;
+            &:hover{
+                cursor: pointer;
+                color: $landing-font-color;
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
