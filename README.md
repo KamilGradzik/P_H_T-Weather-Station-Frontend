@@ -1,5 +1,6 @@
 # **PHT Weather Station - Frontend(Outdated)**
-![#f03c15](Outdated version, newer could be find on my Github) `#f03c15`
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
 ## **General info**
 
 <br>
