@@ -1,6 +1,6 @@
 # **PHT Weather Station - Frontend(Outdated)**
 > [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
+> Outdated version. Newer can be found on my Github with name "PHT_Frontend".
 ## **General info**
 
 <br>
