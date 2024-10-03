@@ -1,5 +1,5 @@
-# **PHT Weather Station - Frontend**
-
+# **PHT Weather Station - Frontend(Outdated)**
+## Outdated version, newer could be find on my Github
 ## **General info**
 
 <br>
