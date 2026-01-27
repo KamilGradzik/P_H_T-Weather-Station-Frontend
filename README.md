@@ -1,6 +1,6 @@
 # **PHT Weather Station - Frontend(Outdated)**
 > [!WARNING]
-> Outdated version. Newer can be found on my Github with name "PHT_Frontend".
+> Outdated version. Newer can be found on my Github under name "PHT_Frontend".
 ## **General info**
 
 <br>
